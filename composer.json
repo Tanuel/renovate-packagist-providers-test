@@ -6,6 +6,6 @@
     }
   ],
   "require": {
-    "typo3-ter/googleanalytics": "0.1.0"
+    "typo3-ter/googleanalytics": "0.1.1"
   }
 }

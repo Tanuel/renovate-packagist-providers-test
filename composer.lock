@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4070a7c96b1ef84b8993db528edda25c",
+    "content-hash": "0c0e329fcee4c934a4b2a3b9fcf233ef",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -3066,14 +3066,14 @@
         },
         {
             "name": "typo3-ter/googleanalytics",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://extensions.typo3.org/extension/download/googleanalytics/0.1.0/zip/"
+                "url": "https://extensions.typo3.org/extension/download/googleanalytics/0.1.1/zip/"
             },
             "require": {
-                "php": "*",
-                "typo3/cms-core": "*"
+                "php": ">= 3.0.0",
+                "typo3/cms-core": ">= 3.5.0"
             },
             "type": "typo3-cms-extension",
             "extra": {
@@ -3100,9 +3100,9 @@
                     "username": "eirikw"
                 }
             ],
-            "description": "Enables you to insert the code necessary to run Google Analytics on your entire site.",
+            "description": "Replaced by other extensions. Enables you to insert the code necessary to run Google Analytics on your entire site.",
             "homepage": "https://extensions.typo3.org/extension/googleanalytics/",
-            "time": "2006-01-02T19:10:39+00:00"
+            "time": "2008-05-09T14:40:23+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
