@@ -1,0 +1,29 @@
+<html>
+<h1>Template for the extension A1 Teasermenu
+<!--
+	This is the templatecode for one menuitem.
+	
+	You can format the table around using CSS (class tx-a1teasermenu-pi1). You can use 
+	typoscript setup und constants to tweak the image and some textfields.
+
+	The following markers are substituted:
+		
+		###IMAGE###	-	The code for the menuimage, including code for rollover (2nd Image)
+		
+		all othe fields in the page-row (uppercased, ###ABSTRACT###, ###TITLE###,etc.)
+		
+	The following subparts are substituted:
+	
+		###LINK_ITEM### - The link to the page
+	
+-->
+<!--###MENU_ITEM###-->
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr>
+<td valign="top" style="padding: 0 10 10 0px;"><!--###LINK_ITEM###-->###IMAGE###<!--###LINK_ITEM###--></td><td width="100%" valign="top" style="padding: 0 10 10 0px;"><!--###LINK_ITEM###-->###TITLE###<!--###LINK_ITEM###--><br>###ABSTRACT###&nbsp;<!--###LINK_ITEM###--><img height="8" width="8" border="0" src="fileadmin/images/pfeil_link_rechts.gif"><!--###LINK_ITEM###--></td>
+</tr>
+<tr><td valign="top" style="padding: 0 10 10 0px;"><img src="clear.gif" height="1" width="100"></td><td>&nbsp;</td></tr>
+</table>
+<!--###MENU_ITEM###-->
+
+</html>

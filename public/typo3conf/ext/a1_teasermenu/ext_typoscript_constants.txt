@@ -1,0 +1,10 @@
+
+#static constants for A1 Teasermenu
+
+plugin.tx_a1teasermenu_pi1 {
+	file.templateFile = EXT:a1_teasermenu/pi1/a1_teasermenu.tmpl
+
+	imageMaxW = 100
+  	textCrop = 100|...
+
+}

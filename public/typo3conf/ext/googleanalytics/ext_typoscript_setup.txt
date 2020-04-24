@@ -1,0 +1,1 @@
+plugin.tx_googleanalytics_pi1.uacct = {$plugin.tx_googleanalytics_pi1.uacct}

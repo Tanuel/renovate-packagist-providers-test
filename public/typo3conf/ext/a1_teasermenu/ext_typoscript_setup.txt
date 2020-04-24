@@ -1,0 +1,26 @@
+
+#static setup for A1 Teasermenu
+
+plugin.tx_a1teasermenu_pi1 {
+	templateFile = {$plugin.tx_a1teasermenu_pi1.file.templateFile}
+  	pid.field = pages
+  	
+  	imgConf = IMAGE
+  	imgConf {
+  		file = OVERWRITTEN
+  		file.maxW = {$plugin.tx_a1teasermenu_pi1.imageMaxW}
+  	}
+  	
+  	txtConf = TEXT
+  	txtConf {
+  		value = OVERWRITTEN
+  		crop = {$plugin.tx_a1teasermenu_pi1.textCrop}
+  		br = 1
+  		
+  	}
+} 	
+  	plugin.tx_a1teasermenu_pi1._CSS_DEFAULT_STYLE (
+	    table.tx-a1teasermenu-pi1 {padding: 0 0 0 0px; spacing: 0 0 0 0px; border: 0 0 0 0px;}
+	    tr.tx-a1teasermenu-pi1 {}
+	    td.tx-a1teasermenu-pi1 {vertical-align: top;}
+)
